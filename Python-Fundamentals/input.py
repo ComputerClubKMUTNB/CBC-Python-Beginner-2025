@@ -1,3 +1,6 @@
-# using input() to take user input
-my_input = input()
-print('You Entered:', my_input)
+n = int(input("Input an integer: "))
+nn = int(f"{n}{n}")
+nnn = int(f"{n}{n}{n}")
+
+result = n + nn + nnn
+print("Result:",result)
